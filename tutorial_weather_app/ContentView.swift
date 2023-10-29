@@ -1,0 +1,24 @@
+//
+//  ContentView.swift
+//  tutorial_weather_app
+//
+//  Created by Tim Häggqvist Luotomäki on 29/10/2023.
+//
+
+import SwiftUI
+
+struct ContentView: View {
+    var body: some View {
+        VStack {
+            Image(systemName: "globe")
+                .imageScale(.large)
+                .foregroundStyle(.tint)
+            Text("Hello, world!")
+        }
+        .padding()
+    }
+}
+
+#Preview {
+    ContentView()
+}
