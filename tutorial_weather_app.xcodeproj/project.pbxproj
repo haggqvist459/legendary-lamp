@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F036A3E92B39C65C0022DDC2 /* MainWeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F036A3E82B39C65C0022DDC2 /* MainWeatherView.swift */; };
+		F036A3EB2B39C6F30022DDC2 /* CityTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F036A3EA2B39C6F30022DDC2 /* CityTextView.swift */; };
+		F036A3ED2B39C7280022DDC2 /* WeatherDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F036A3EC2B39C7280022DDC2 /* WeatherDayView.swift */; };
+		F05A4FB42B00B516000319FE /* TimeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05A4FB32B00B516000319FE /* TimeButton.swift */; };
+		F05A4FB62B00BA38000319FE /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05A4FB52B00BA38000319FE /* BackgroundView.swift */; };
 		F076A8E12AEE391D009B205F /* tutorial_weather_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F076A8E02AEE391D009B205F /* tutorial_weather_appApp.swift */; };
 		F076A8E32AEE391D009B205F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F076A8E22AEE391D009B205F /* ContentView.swift */; };
 		F076A8E52AEE391E009B205F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F076A8E42AEE391E009B205F /* Assets.xcassets */; };
@@ -34,6 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F036A3E82B39C65C0022DDC2 /* MainWeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWeatherView.swift; sourceTree = "<group>"; };
+		F036A3EA2B39C6F30022DDC2 /* CityTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityTextView.swift; sourceTree = "<group>"; };
+		F036A3EC2B39C7280022DDC2 /* WeatherDayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDayView.swift; sourceTree = "<group>"; };
+		F05A4FB32B00B516000319FE /* TimeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeButton.swift; sourceTree = "<group>"; };
+		F05A4FB52B00BA38000319FE /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
 		F076A8DD2AEE391D009B205F /* tutorial_weather_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tutorial_weather_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F076A8E02AEE391D009B205F /* tutorial_weather_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tutorial_weather_appApp.swift; sourceTree = "<group>"; };
 		F076A8E22AEE391D009B205F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -96,6 +106,11 @@
 			children = (
 				F076A8E02AEE391D009B205F /* tutorial_weather_appApp.swift */,
 				F076A8E22AEE391D009B205F /* ContentView.swift */,
+				F05A4FB52B00BA38000319FE /* BackgroundView.swift */,
+				F05A4FB32B00B516000319FE /* TimeButton.swift */,
+				F036A3E82B39C65C0022DDC2 /* MainWeatherView.swift */,
+				F036A3EA2B39C6F30022DDC2 /* CityTextView.swift */,
+				F036A3EC2B39C7280022DDC2 /* WeatherDayView.swift */,
 				F076A8E42AEE391E009B205F /* Assets.xcassets */,
 				F076A8E62AEE391E009B205F /* Preview Content */,
 			);
@@ -257,7 +272,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F036A3ED2B39C7280022DDC2 /* WeatherDayView.swift in Sources */,
 				F076A8E32AEE391D009B205F /* ContentView.swift in Sources */,
+				F05A4FB42B00B516000319FE /* TimeButton.swift in Sources */,
+				F036A3EB2B39C6F30022DDC2 /* CityTextView.swift in Sources */,
+				F05A4FB62B00BA38000319FE /* BackgroundView.swift in Sources */,
+				F036A3E92B39C65C0022DDC2 /* MainWeatherView.swift in Sources */,
 				F076A8E12AEE391D009B205F /* tutorial_weather_appApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -422,6 +442,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"tutorial_weather_app/Preview Content\"";
+				DEVELOPMENT_TEAM = 3WB6LF5397;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -450,6 +471,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"tutorial_weather_app/Preview Content\"";
+				DEVELOPMENT_TEAM = 3WB6LF5397;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
